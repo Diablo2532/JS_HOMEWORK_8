@@ -18,3 +18,8 @@ const task6Text = "JavaScript допомагає працювати з рядк�
 const task7Text = "Hello, world!";
 const task8Number = 12.89;
 const task10Date = "2021-22-09";
+const task11Pairs = [
+    ["pApA", "papa"],
+    ["qwerty", "QWErty"],
+    ["aaa", "EEE"]
+];

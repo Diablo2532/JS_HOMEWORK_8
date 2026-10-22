@@ -46,3 +46,9 @@ const formatDate = (date) => {
     return `${day}.${month}.${year}`;
 };
 console.log(formatDate(task10Date));
+
+// 11. Порівняти два рядки незалежно від регістру.
+const isEqual = (first, second) => first.toLowerCase() === second.toLowerCase();
+task11Pairs.forEach(([first, second]) => {
+    console.log(isEqual(first, second));
+});
