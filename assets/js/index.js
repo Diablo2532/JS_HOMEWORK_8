@@ -12,3 +12,4 @@ const fileNames = [
 ];
 
 const task3Text = "abcde abcde abcde abcde";
+const task4Text = "Привіт, Alex!";
