@@ -25,3 +25,7 @@ const findLongestWord = (text) => {
     return words.reduce((longest, word) => word.length > longest.length ? word : longest, "");
 };
 console.log(findLongestWord(task6Text));
+
+// 7. Вивести рядок задом наперед.
+const reverseText = (text) => [...text].reverse().join("");
+console.log(reverseText(task7Text));
