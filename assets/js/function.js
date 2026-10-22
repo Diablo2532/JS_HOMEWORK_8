@@ -29,3 +29,7 @@ console.log(findLongestWord(task6Text));
 // 7. Вивести рядок задом наперед.
 const reverseText = (text) => [...text].reverse().join("");
 console.log(reverseText(task7Text));
+
+// 8. Повернути цілу частину числа, відкидаючи дробову частину до нуля.
+const getIntegerPart = (number) => Math.trunc(number);
+console.log(getIntegerPart(task8Number));

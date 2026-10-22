@@ -16,3 +16,4 @@ const task4Text = "Привіт, Alex!";
 const task5Text = "А роза упала на лапу Азора";
 const task6Text = "JavaScript допомагає працювати з рядками";
 const task7Text = "Hello, world!";
+const task8Number = 12.89;
