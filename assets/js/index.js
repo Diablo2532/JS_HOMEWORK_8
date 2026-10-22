@@ -17,3 +17,4 @@ const task5Text = "А роза упала на лапу Азора";
 const task6Text = "JavaScript допомагає працювати з рядками";
 const task7Text = "Hello, world!";
 const task8Number = 12.89;
+const task10Date = "2021-22-09";
