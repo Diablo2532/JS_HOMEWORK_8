@@ -13,3 +13,4 @@ const fileNames = [
 
 const task3Text = "abcde abcde abcde abcde";
 const task4Text = "Привіт, Alex!";
+const task5Text = "А роза упала на лапу Азора";

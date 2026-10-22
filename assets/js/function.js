@@ -11,3 +11,10 @@ console.log(replaceFirstLetterOfEachWord(task3Text));
 // 4. Порахувати англійські та українські голосні літери.
 const countVowels = (text) => (text.match(/[aeiouаеєиіїоуюя]/gi) || []).length;
 console.log(countVowels(task4Text));
+
+// 5. Паліндром без урахування пробілів і розділових знаків.
+const isPalindrome = (text) => {
+    const normalized = text.toLowerCase().replace(/[^\p{L}\p{N}]/gu, "");
+    return normalized === [...normalized].reverse().join("");
+};
+console.log(isPalindrome(task5Text));
